@@ -1,13 +1,6 @@
 <p align="center">
-    <img src="https://www.hackingwithswift.com/files/sitrep/logo.png" alt="Sitrep logo" width="483" maxHeight="150" />
-</p>
-
-<p align="center">
     <img src="https://img.shields.io/badge/Swift-5.1-brightgreen.svg" />
     <img src="https://github.com/twostraws/Sitrep/workflows/Unittests/badge.svg"/>
-    <a href="https://twitter.com/twostraws">
-        <img src="https://img.shields.io/badge/Contact-@twostraws-lightgrey.svg?style=flat" alt="Twitter: @twostraws" />
-    </a>
 </p>
 
 Sitrep is source code analyzer for Swift projects, giving you a high-level overview of your code:
@@ -53,13 +46,13 @@ From now on you can use the `sitrep` command to scan Swift projects.
 Alternatively, you can install the tool by using [Mint](https://github.com/yonaskolb/Mint) as follows:
 
 ```bash
-$ mint install twostraws/Sitrep
+$ mint install twostraws/Sitrep@main
 ```
     
 And then run it using:
 
 ```bash
-$ mint run sitrep
+$ mint run sitrep@main
 ```
 
 ## Command line flags
@@ -101,13 +94,3 @@ Some suggestions you might want to explore:
 
 Please ensure you write tests to accompany any code you contribute, and that SwiftLint returns no errors or warnings.
 
-
-## Credits
-
-Sitrep was designed and built by Paul Hudson, and is copyright © Paul Hudson 2020. Sitrep is licensed under the Apache License v2.0 with Runtime Library Exception; for the full license please see the LICENSE file.
-
-Sitrep is built on top of Apple’s [SwiftSyntax](https://github.com/apple/swift-syntax) library for parsing code, which is also available under the Apache License v2.0 with Runtime Library Exception.
-
-Swift, the Swift logo, and Xcode are trademarks of Apple Inc., registered in the U.S. and other countries.
-
-If you find Sitrep useful, you might find my website full of Swift tutorials equally useful: [Hacking with Swift](https://www.hackingwithswift.com).
